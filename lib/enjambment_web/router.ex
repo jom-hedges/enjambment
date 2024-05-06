@@ -22,8 +22,7 @@ defmodule EnjambmentWeb.Router do
 
     get "/", PageController, :home
 
-    get "/register", RegistrationController, :new
-    post "/register", RegistrationController, :create 
+     
   end
 
   # Other scopes may use custom stacks.
